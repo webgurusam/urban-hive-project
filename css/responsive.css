@@ -1,3 +1,26 @@
-@media screen and (max-width: 400px) {
-    
+@media screen and (max-width: 576px) {
+    .nav-container{
+        padding: 10px 0 20px;
+    }
+    .nav-container, .logo-container, .nav-items-container{
+        flex-direction: column;
+    }
+    .logo-container, .nav-items-container {
+        width: 100%;
+        align-items: center;
+    }
+    .logo-container img {
+        width: 100px;
+    }
+    .logo-container p{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .nav-items-container{
+        gap: 20px;
+    }
+    .login-btn{
+        text-align: center;
+        width: 100%;
+    }
 }

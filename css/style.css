@@ -1,17 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: #9376e0;
+}
 .nav-container{
-    border: 1px solid red;
     min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .logo-container{
-    border: 1px solid blue;
     display: flex;
+    width: 50%;
 }
 .logo-container p{
-    
+    font-size: 30px;
+    margin-left: 20px;
+}
+.hive{
+    color: #e893cf;
 }
 .logo-container img{
     width: 50px;
+    object-fit: cover;
 }
 .nav-items-container{
-    border: 1px solid green;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+}
+.login-btn{
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+a.login-btn{
+    color: black;
 }
