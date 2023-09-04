@@ -1,0 +1,17 @@
+.nav-container{
+    border: 1px solid red;
+    min-height: 50px;
+}
+.logo-container{
+    border: 1px solid blue;
+    display: flex;
+}
+.logo-container p{
+    
+}
+.logo-container img{
+    width: 50px;
+}
+.nav-items-container{
+    border: 1px solid green;
+}
