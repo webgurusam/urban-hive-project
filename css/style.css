@@ -1,7 +1,7 @@
-/* lato fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
 
-/* common styles here  */
+/* lato fonts from google fonts ends here  */
+
 *{
     box-sizing: border-box;
 }
@@ -18,7 +18,8 @@ img{
     border-radius: 5px;
 }
 
-/* nav section styles starts here  */
+/* common styles ends here  */
+
 nav{
     background-color: #9376e0;
 }
@@ -75,10 +76,9 @@ a.login-btn{
 .banner-container{
     margin: 50px auto;
     max-width: 1400px;
-    min-height: 50px;
     display: flex;
     padding: 10px;
-    background-color: #ddddddd2;
+    background-color: #e6e9eb;
     border-radius: 10px;
 }
 .banner-text{
@@ -90,10 +90,10 @@ a.login-btn{
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    font-size: 50px;
+    font-size: 3rem;
 }
 .banner-text p{
-    font-size: 45px;
+    font-size: 2.75rem;
     font-family: 'Dancing Script', cursive;
 }
 .social-icons{
@@ -129,3 +129,58 @@ a.login-btn{
 .banner-img img{
     border-radius: 10px;
 }
+
+/* banner section styles ends here  */
+.products{
+    max-width: 1400px;
+    margin: 0 auto 50px;
+}
+.section-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.single-product{
+    border-radius: 10px;
+    background-color: #e6e9eb;
+    padding: 10px 10px 15px;
+    box-shadow: 2px 2px 4px 0px #00000061;
+}
+.single-product img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.buy-now{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buy-now a{
+    padding: 10px;
+    background-color: #9376e0;
+    border-radius: 25px;
+}
+.product-links{
+    display: flex;
+    gap: 10px;
+}
+.fa-solid, .fa-regular{
+    color: #ffffff;
+    font-size: 18px;
+}
+.product-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.product-description{
+    font-size: 15px;
+}
+
+/* products section styles ends here  */

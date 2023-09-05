@@ -2,7 +2,7 @@
     .nav-container{
         padding: 10px 0 20px;
     }
-    .nav-container, .logo-container, .nav-items-container{
+    .nav-container, .logo-container, .nav-items-container, .buy-now{
         flex-direction: column;
     }
     .logo-container, .nav-items-container {
@@ -19,8 +19,29 @@
     .nav-items-container{
         gap: 20px;
     }
-    .login-btn{
+
+    /* nav responsive styles ends here  */
+    
+    .login-btn, .banner-text, .banner-img{
         text-align: center;
         width: 100%;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .social-icons, .links{
+        flex-wrap: wrap;
+    }
+    /* banner responsive styles ends here  */
+    .products-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .single-product{
+        text-align: center;
+    }
+    .buy-now{
+        gap: 20px;
+    }
+    /* products responsive styles ends here  */
 }
