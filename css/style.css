@@ -227,6 +227,35 @@ a.login-btn{
 }
 
 /* discount section styles ends here  */
+.customer-reviews{
+    margin: 50px 0;
+}
+.customer-review-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+.single-customer-review{
+    flex-basis: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e893cf;
+}
+.customer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-info img{
+    width: 60px;
+    height: 60px;
+}
+
+/* customer review section styles ends here  */
 
 
 
