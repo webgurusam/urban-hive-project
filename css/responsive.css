@@ -79,4 +79,18 @@
         gap: 20px;
     }
     /* products responsive styles ends here  */
+    .discounts-container{
+        flex-direction: column;
+    }
+    .discount-item-img, .discount-info{
+        width: 100%;
+    }
+    .discount-info{
+        text-align: center;
+        padding: 0 15px 20px;
+    }
+    .discount-item-img{
+        padding: 30px;
+    }
+    /* discounts responsive styles ends here  */
 }

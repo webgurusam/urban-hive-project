@@ -11,7 +11,7 @@ body{
 img{
     width: 100%;
 }
-.primary-btn{
+.btn-primary{
     border: 2px solid #9376e0;
     background-color: transparent;
     padding: 10px 20px;
@@ -184,3 +184,57 @@ a.login-btn{
 }
 
 /* products section styles ends here  */
+
+.discounts{
+    background-color: #9376e0;
+}
+.discounts-container{
+    min-height: 400px;
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+}
+.discount-item-img{
+    width: 50%;
+    position: relative;
+    padding: 50px;
+}
+.discount-item-img img{
+    
+}
+.discount-rate{
+    width: 90px;
+    height: 95px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.discount-info{
+    width: 50%;
+}
+.discount-info .btn-primary{
+    border-color: #ffffff;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* discount section styles ends here  */
+
+
+
+
+
+
+
+
+
+
+
