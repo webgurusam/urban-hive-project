@@ -1,10 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* lato fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+/* common styles here  */
 *{
     box-sizing: border-box;
 }
 body{
     font-family: 'Lato', sans-serif;
 }
+img{
+    width: 100%;
+}
+.primary-btn{
+    border: 2px solid #9376e0;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* nav section styles starts here  */
 nav{
     background-color: #9376e0;
 }
@@ -22,6 +36,7 @@ nav{
 .logo-container p{
     font-size: 30px;
     margin-left: 20px;
+    color: #ffffff;
 }
 .hive{
     color: #e893cf;
@@ -50,4 +65,66 @@ nav{
 }
 a.login-btn{
     color: black;
+}
+.login-btn i{
+    color: #9376e0;
+}
+
+/* nav section styles ends here  */
+
+.banner-container{
+    margin: 50px auto;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    padding: 10px;
+    background-color: #ddddddd2;
+    border-radius: 10px;
+}
+.banner-text{
+    width: 50%;
+    text-align: center;
+}
+.banner-text h1{
+    background-image: linear-gradient(to top, #e893cf, #9376e0);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+.banner-text p{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+.social-icons{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.fa-brands{
+    font-size: 50px;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #55acee;
+}
+.fa-youtube{
+    color: #cd201f;
+}
+.fa-square-instagram{
+    color: #e893cf;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.banner-img{
+    width: 50%;
+    border-radius: 30px;
+}
+.banner-img img{
+    border-radius: 10px;
 }
